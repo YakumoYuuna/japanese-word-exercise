@@ -102,9 +102,16 @@ export default {
       hiraganaKatakanaSuccess: false,
       hiraganaKatakanaError: false,
       dataCollection: [
-        { tyuugokugo: '人数', nihonngo_answer: '人数', hiragana_katakana_answer: 'にんずう' },
-        { tyuugokugo: '年级', nihonngo_answer: '年級', hiragana_katakana_answer: 'ねんきゅう' },
-        { tyuugokugo: '岁数', nihonngo_answer: '歳数', hiragana_katakana_answer: 'さいすう' },
+        { tyuugokugo: '新单词；生词（⑤）', nihonngo_answer: '新出単語', hiragana_katakana_answer: 'しんしゅつたんご' },
+        { tyuugokugo: '第2课 （①－①）', nihonngo_answer: '第2課', hiragana_katakana_answer: 'だいにか' },
+        { tyuugokugo: '单词 （⓪）', nihonngo_answer: '単語', hiragana_katakana_answer: 'たんご' },
+        { tyuugokugo: '新出现；新 （⓪）', nihonngo_answer: '新出', hiragana_katakana_answer: 'しんしゅつ' },
+        { tyuugokugo: '新生活 （③）', nihonngo_answer: '新生活', hiragana_katakana_answer: 'しんせいかつ' },
+        { tyuugokugo: '生活 （⓪）', nihonngo_answer: '生活', hiragana_katakana_answer: 'せいかつ' },
+        { tyuugokugo: 'unit;单元 （①）', nihonngo_answer: 'ユニット', hiragana_katakana_answer: 'ユニット' },
+        { tyuugokugo: '会话 （⓪）', nihonngo_answer: '会話', hiragana_katakana_answer: 'かいわ' },
+        { tyuugokugo: '初次见面 （④）', nihonngo_answer: '初めまして', hiragana_katakana_answer: 'はじめまして' },
+        { tyuugokugo: '对不起 （④）', nihonngo_answer: 'すみません', hiragana_katakana_answer: 'すみません' },
       ]
     };
   },
