@@ -213,4 +213,17 @@ export default {
   font-size: 18px;
   font-weight: bold;
 }
+/* 媒体查询：屏幕宽度小于768px时 */
+@media (max-width: 768px) {
+  .el-tabs__content {
+    overflow-x: auto; /* 为 el-tab-pane 添加水平滚动条 */
+    display: flex; /* 使用 Flexbox 来保持布局 */
+    flex-direction: column; /* 确保内容按列排列 */
+  }
+
+  .el-tab-pane {
+    flex: 1; /* 让 el-tab-pane 占满容器 */
+    min-width: 300px; /* 设定最小宽度以防止过度挤压 */
+  }
+}
 </style>
